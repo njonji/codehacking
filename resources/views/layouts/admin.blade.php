@@ -138,27 +138,27 @@
                         <!-- /.nav-second-level -->
                     </li>
 
-{{--                     <li>
+             <li>
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> Posts<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="{{route('admin.posts.index')}}">All Posts</a>
                             </li>
 
-                            <li>
+                         <li>
                                 <a href="{{route('admin.posts.create')}}">Create Post</a>
                             </li>
 
-                            <li>
+                        {{--     <li>
                                 <a href="{{route('admin.comments.index')}}">All Comments</a>
-                            </li>
+                            </li> --}} 
 
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
 
 
-                    <li>
+{{--                     <li>
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>Categories<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
@@ -171,9 +171,9 @@
 
                         </ul>
                         <!-- /.nav-second-level -->
-                    </li>
+                    </li> --}}
 
-
+{{-- 
                     <li>
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>Media<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
@@ -187,7 +187,7 @@
 
                         </ul>
                         <!-- /.nav-second-level -->
-                    </li> --}}
+                    </li>  --}}
 
 
                     <li>
