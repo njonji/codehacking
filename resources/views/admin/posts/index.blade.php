@@ -19,7 +19,7 @@
         <th>Updated At</th>
       </tr>
     </thead>
-    <tbody>
+    <tbody> 
         
         @if($posts) 
                    
@@ -27,7 +27,7 @@
                 <tr>
                     <td>{{ $post->id }}</td>
                     <td>{{ $post->user->name }}</td>
-                    <td>{{ $post->category_id }}</td>
+                    <td>{{ $post->category ? $post->category->name : 'Uncategorized' }}</td>
                     <td><img style="height:50px" width="100px" src="{{ $post->photo ? $post->photo->file : '/images/placeholder.png' }}" alt=""></td>
                     <td>{{ $post->title }}</td>
                     <td>{{ $post->body }}</td>
